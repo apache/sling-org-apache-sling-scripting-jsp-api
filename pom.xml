@@ -36,9 +36,9 @@
   <description>This bundle wraps the Apache Tomcat 6.0.14 JSP API used by Apache Sling Scripting JSP.</description>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/sling/trunk/bundles/scripting/jsp-api</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/sling/trunk/bundles/scripting/jsp-api</developerConnection>
-    <url>http://svn.apache.org/viewvc/sling/trunk/bundles/scripting/jsp-api</url>
+    <connection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-jsp-api.git</conncetion>
+    <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-jsp-api.git</developerConnection>
+    <url>https://gitbox.apache.org/repos/asf?p=sling-org-apache-sling-scripting-jsp-api.git</url>
   </scm>
 
   <build>
