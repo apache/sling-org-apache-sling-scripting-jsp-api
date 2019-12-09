@@ -31,7 +31,7 @@
   <artifactId>org.apache.sling.scripting.jsp-api</artifactId>
   <version>1.0.1-SNAPSHOT</version>
 
-  <name>Apache Sling Wrapper Bundle for Apache Tomcat JSP API</name>
+  <name>Apache Sling Scripting JSP API Wrapper</name>
   <description>This bundle wraps the Apache Tomcat 6.0.14 JSP API used by Apache Sling Scripting JSP.</description>
 
   <scm>
