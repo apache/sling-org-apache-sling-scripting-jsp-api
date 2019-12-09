@@ -1,0 +1,4 @@
+Export-Package: javax.servlet.jsp; \
+              javax.servlet.jsp.el; \
+              javax.servlet.jsp.resources; \
+              javax.servlet.jsp.tagext;version=2.1

@@ -23,13 +23,12 @@
 
   <parent>
     <groupId>org.apache.sling</groupId>
-    <artifactId>sling</artifactId>
-    <version>30</version>
+    <artifactId>sling-bundle-parent</artifactId>
+    <version>35</version>
     <relativePath />
   </parent>
 
   <artifactId>org.apache.sling.scripting.jsp-api</artifactId>
-  <packaging>bundle</packaging>
   <version>1.0.1-SNAPSHOT</version>
 
   <name>Apache Sling Wrapper Bundle for Apache Tomcat JSP API</name>
@@ -40,33 +39,6 @@
     <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-jsp-api.git</developerConnection>
     <url>https://gitbox.apache.org/repos/asf?p=sling-org-apache-sling-scripting-jsp-api.git</url>
   </scm>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.felix</groupId>
-        <artifactId>maven-bundle-plugin</artifactId>
-        <extensions>true</extensions>
-        <configuration>
-          <instructions>
-            <Export-Package>
-              javax.servlet.jsp;
-              javax.servlet.jsp.el;
-              javax.servlet.jsp.resources;
-              javax.servlet.jsp.tagext;version=2.1
-            </Export-Package>
-            <Embed-Dependency>*;scope=compile</Embed-Dependency>
-            <_removeheaders>
-              Embedded-Artifacts,
-              Embed-Dependency,
-              Private-Package,
-              Include-Resource
-            </_removeheaders>
-          </instructions>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
 
   <dependencies>
     <dependency>
